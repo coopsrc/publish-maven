@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+}
+
+group 'com.coopsrc.plugin'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+}
